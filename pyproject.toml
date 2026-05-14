@@ -1,0 +1,25 @@
+[project]
+name = "pm-assistant-copilot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel",
+    "streamlit",
+    "pandas",
+    "plotly",
+    "numpy",
+    "langchain-core",
+    "langgraph-checkpoint-sqlite",
+    "langgraph",
+    "dotenv",
+    "langchain-groq",
+    "langchain-huggingface",
+    "langchain_community",
+    "sentence-transformers",
+    "pypdf",
+    "faiss-cpu",
+    "openpyxl"
+
+]
